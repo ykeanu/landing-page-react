@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
-import logo from './images'
+import logo from '../../images/logo-head.svg';
+import '../../styles/index.css';
 
 class Header extends Component {
   render() {
     return (
       <header>
         <div className="logo">
+          <img src={logo} />
         </div>
 
         <nav>
@@ -22,7 +24,7 @@ class Header extends Component {
           </ul>
         </nav>
       </header>
-    )
+    );
   }
 }
 
