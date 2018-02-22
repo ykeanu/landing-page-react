@@ -3,8 +3,9 @@ import React, { Component } from 'react';
 // Components
 import Header from '../common/Header';
 import Jumbotron from './Jumbotron';
-// Styles
-import '../../styles/index.css';
+import Culture from './Culture';
+import Perks from './Perks';
+import Positions from './Positions';
 
 class CareerPage extends Component {
   constructor() {
@@ -18,13 +19,11 @@ class CareerPage extends Component {
   render() {
     return (
       <div className="CareerPage">
-      <Header />
-      <Jumbotron />
-      {/* // Our Culture */}
-
-      {/* // Dave Perks */}
-
-      {/* // Open Position */}
+        <Header />
+        <Jumbotron />
+        <Culture />
+        <Perks />
+        <Positions />
       </div>
     );
   }

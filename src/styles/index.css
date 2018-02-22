@@ -4,7 +4,6 @@ body {
   font-family: sans-serif;
 }
 
-
 /* Header */
 
 header {
@@ -23,16 +22,29 @@ nav li {
   padding: 0px 5px 0px 5px;
 }
 
-
 /* Jumbotron */
+
 .Jumbotron {
-  background-image: url("../images/curtis-service.png");
+  background-image: url('../images/curtis-service.png');
   background-size: cover;
   height: 477px;
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+/* Culture */
+
+.Culture {
+  margin: 1.5% 5% 1.5% 5%;
+  padding: 1.5% 5% 1.5% 5%;
+}
+
+.culture-content {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
 }
 
 /* App */
@@ -66,15 +78,10 @@ nav li {
   to { transform: rotate(360deg); }
 } */
 
-
-
 /* iPad */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-
 }
-
 
 /* Mobile */
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-
 }
